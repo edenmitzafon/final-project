@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f8f8;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 35vw;
+  object-fit: cover;
+}
+
+h1 {
+  font-weight: 700;
+  color: #383838;
+  font-size: 7vw;
+  text-align: center;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+h2, h6 {
+  font-weight: 700;
+  color: #383838;
+  margin: 0.5vw;
+}
+
+thead {
+  font-weight: 700;
+}
+
+#tables {
+  margin: 6vw;
+}
+
+#wrapper1 {
+  margin: 1.5vw 1.5vw 3vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #484848;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 22vw;
+  object-fit: cover;
+}
+
+#bottom-nav {
+  margin: 1vw 3vw 1vw;
+}
+
+.navbar-text {
+  margin: 0vw 0.25vw 0vw;
+}
+
+button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  color: white;
+}
+
+.Logo {
+  filter: invert(100%);
+}

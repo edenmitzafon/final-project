@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../../styles/recipes.css" rel="stylesheet">
+
+  <title>Eggs Benedict</title>
+  <link rel="icon" href="../../icons/favicon.png" sizes="16x16 32x32 48x48 180x180 192x192 512x512" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="Logo" src="../../icons/book-half.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        Eden's Recipes
+      </a>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <div>
+    <img src="../../thumbnails/thumbnail5.jpg" class="img-fluid" alt="eggs">
+  </div>
+
+  <div id="wrapper1">
+    <h1>Eggs Benedict</h1>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../thumbnails/thumbnail24.jpg" id="card-img" class="bg-image hover-zoom img-fluid rounded-start"
+            alt="milk bread">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+            <h6>Eggs Benedict is my favorite breakfast menu item, and it’s super easy to make from home! It starts with
+              a
+              toasted english muffin, topped with a slice or two of Canadian bacon, a poached egg, and smothered in
+              traditional
+              Eggs Benedict sauce, called hollandaise sauce.</h6>
+            <span>Share &#160</span>
+            <a class="facebook" target="blank"><i class="fa-brands fa-facebook">&#160</i></a>
+            <a class="twitter" target="blank"><i class="fa-brands fa-twitter">&#160</i></a>
+            <a class="whatsapp" target="blank"><i class="fa-brands fa-whatsapp">&#160</i></a>
+            <a class="telegram" target="blank"><i class="fa-brands fa-telegram">&#160</i></a>
+            <button type="button" id="btn" class="rounded-pill btn-sm btn btn-outline-dark text-nowrap float-right"
+              onclick="printDiv('wrapper1')">Print
+              Recipe &#160<i class="fa-solid fa-print"></i></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Ingredients</h3>
+    <p id="Serves">Serves 4</p>
+    <ul>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">2 English muffins</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">4 large eggs</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">4 slices Canadian bacon</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="forthCheckbox">
+        <label class="form-check-label" for="forthCheckbox">Vinegar , just a splash</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
+        <label class="form-check-label" for="fifthCheckbox">4 Tablespoons butter</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="sixthCheckbox">
+        <label class="form-check-label" for="sixthCheckbox">4 egg yolks</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="seventhCheckbox">
+        <label class="form-check-label" for="seventhCheckbox">2 teaspoons lemon juice , or lime juice</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="eighthCheckbox">
+        <label class="form-check-label" for="eighthCheckbox">1 Tablespoon heavy whipping cream</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="ninthCheckbox">
+        <label class="form-check-label" for="ninthCheckbox">salt and pepper (to taste)</label>
+      </li>
+    </ul>
+
+    <div>
+      <h3>For the Hollandaise Sauce</h3>
+      <h5>Step 1</h5>
+      <p>Melt the butter in a small saucepan. In a separate small bowl, beat the egg yolks. Mix in lemon juice, whipping
+        cream, and salt and pepper.</p>
+      <h5>Step 2</h5>
+      <p>Add a small spoonful of the hot melted butter to the egg mixture and stir well. Repeat this process adding a
+        spoonful at a time of hot butter to the egg mixture.( Adding the butter slowly, a spoonful at a time, will
+        temper the eggs and ensure they don't curdle).</p>
+      <h5>Step 3</h5>
+      <p>Once the butter has been incorporated, pour the mixture back into the saucepan. Cook on low heat, stirring
+        constantly, for just 20-30 seconds. Remove from heat and set aside. It will thicken as it cools. Stir well and
+        add another splash of cream, if needed, to thin.</p>
+    </div>
+    <div>
+      <h3>To Poach the Eggs</h3>
+      <h5>Step 1</h5>
+      <p>Fill a medium size pot with about 3 inches of water. Bring the water to a boil and then reduce heat until it
+        reaches a simmer. You should see small bubbles coming to the surface but not rolling. </p>
+      <h5>Step 2</h5>
+      <p>Add a little splash of vinegar to the water (this is optional, but it helps the egg white to stay together once
+        it is in the water).</p>
+      <h5>Step 3</h5>
+      <p>Crack one egg into a small cup (I use a measuring cup). Lower the egg into the simmer water, gently easing it
+        out of the cup.</p>
+      <h5>Step 4</h5>
+      <p>Cook the egg in simmering water for 3-5 minutes, depending on how soft you want your egg yolk. Remove the
+        poached egg with a slotted spoon.</p>
+      <p>It is not abnormal for a white foam to form on top of the water when poaching an egg. You can simple skim the
+        foam off of the water with a spoon.</p>
+      <h5>Step 5</h5>
+      <p>While the egg is cooking, place the slices of Canadian bacon in a large pan and cook on medium-high heat for
+        about 1 minute on each side.</p>
+    </div>
+    <div>
+      <h3>To Assemble</h3>
+      <p>Toast the English muffin. Top each toasted side with a slice or two of Canadian bacon, and then a poached egg.
+        Top with hollandaise sauce.</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-dark bg-dark sticky-bottom">
+    <div id="bottom-nav">
+      <span class="navbar-text"><button id="nav-print" onclick="printDiv('wrapper1')">Print &#160<i
+            class="fa-solid fa-print"></i></button></span>
+      <span class="navbar-text"><a href="#top" id="back-to-top">Back to Top &#160</a><i
+          class="fa-solid fa-arrow-up"></i></span>
+    </div>
+  </nav>
+
+  <script src="../../general.js"></script>
+  <script src="../../print.js"></script>
+
+</body>
+
+</html>

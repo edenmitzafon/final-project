@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../../styles/recipes.css" rel="stylesheet">
+
+  <title>French Toast</title>
+  <link rel="icon" href="../../icons/favicon.png" sizes="16x16 32x32 48x48 180x180 192x192 512x512" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="Logo" src="../../icons/book-half.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Eden's Recipes
+      </a>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <div>
+    <img src="../../thumbnails/thumbnail5.jpg" class="img-fluid" alt="eggs">
+  </div>
+
+  <div id="wrapper1">
+    <h1>French Toast</h1>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../thumbnails/thumbnail23.jpg" id="card-img" class="bg-image hover-zoom img-fluid rounded-start"
+            alt="milk bread">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              <h6>Wake up to an irresistibly delicious breakfast that's super quick and easy to whip up using a few basic
+                ingredients you likely already have in your kitchen. This French toast recipe soaks thick slices of bread in a
+                mixture of milk, vanilla extract, cinnamon, and an egg before tossing each slice in a frying pan. Fluffy and
+                tender on the inside and perfectly golden-brown on the outside, making French toast is one of our favorite
+                breakfast dishes. You can use any bread you have left over from the week to make this breakfast
+                treat. Drizzle with maple syrup
+                and customize with different toppings like strawberries, blueberries, and honey butter.
+                </h6>
+            <span>Share &#160</span>
+            <a class="facebook" target="blank"><i class="fa-brands fa-facebook">&#160</i></a>
+            <a class="twitter" target="blank"><i class="fa-brands fa-twitter">&#160</i></a>
+            <a class="whatsapp" target="blank"><i class="fa-brands fa-whatsapp">&#160</i></a>
+            <a class="telegram" target="blank"><i class="fa-brands fa-telegram">&#160</i></a>
+            <button type="button" id="btn" class="rounded-pill btn-sm btn btn-outline-dark text-nowrap float-right"
+              onclick="printDiv('wrapper1')">Print
+              Recipe &#160<i class="fa-solid fa-print"></i></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Ingredients</h3>
+    <p id="Serves">Serves 4</p>
+    <ul>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">1 egg</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">1 teaspoon vanilla extract</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">1/2 teaspoon ground cinnamon</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="forthCheckbox">
+        <label class="form-check-label" for="forthCheckbox">1/4 cup milk</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
+        <label class="form-check-label" for="fifthCheckbox">4 slices bread</label>
+      </li>
+    </ul>
+
+    <div>
+      <h3>Preparation</h3>
+      <h5>Step 1</h5>
+      <p>To make this easy French toast recipe:
+        Beat egg, vanilla and cinnamon in shallow dish with wire whisk. Stir in milk.</p>
+      <h5>Step 2</h5>
+      <p>Dip bread in egg mixture, turning to coat both sides evenly.</p>
+      <h5>Step 3</h5>
+      <p>Cook bread slices on lightly greased nonstick griddle or skillet on medium heat until browned on both sides.
+        Serve with Easy Spiced Syrup (recipe follows), if desired. Voila, easy French toast.</p>
+      <h5>Easy Spiced Syrup</h5>
+      <p>Add 1 teaspoon pure vanilla extract and 1/4 teaspoon ground cinnamon to 1 cup pancake syrup; stir well to mix.
+        Serve warm, if desired.</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-dark bg-dark sticky-bottom">
+    <div id="bottom-nav">
+      <span class="navbar-text"><button id="nav-print" onclick="printDiv('wrapper1')">Print &#160<i
+            class="fa-solid fa-print"></i></button></span>
+        <span class="navbar-text"><a href="#top" id="back-to-top">Back to Top &#160</a><i class="fa-solid fa-arrow-up"></i></span>
+        </div>
+  </nav>
+
+  <script src="../../general.js"></script>
+  <script src="../../print.js"></script>
+
+</body>
+
+</html>

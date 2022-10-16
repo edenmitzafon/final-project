@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../../styles/recipes.css" rel="stylesheet">
+
+  <title>Basic Crepes</title>
+  <link rel="icon" href="../../icons/favicon.png" sizes="16x16 32x32 48x48 180x180 192x192 512x512" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="Logo" src="../../icons/book-half.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        Eden's Recipes
+      </a>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <div>
+    <img src="../../thumbnails/thumbnail5.jpg" class="img-fluid" alt="eggs">
+  </div>
+
+  <div id="wrapper1">
+    <h1>Basic Crepes</h1>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../thumbnails/thumbnail21.jpg" id="card-img" class="bg-image hover-zoom img-fluid rounded-start"
+            alt="milk bread">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+            <h6>Here is a simple but delicious crepe batter which can be made in minutes. It's made from ingredients
+              that
+              everyone has on hand.</h6>
+            </p>
+            <span>Share &#160</span>
+            <a class="facebook" target="blank"><i class="fa-brands fa-facebook">&#160</i></a>
+            <a class="twitter" target="blank"><i class="fa-brands fa-twitter">&#160</i></a>
+            <a class="whatsapp" target="blank"><i class="fa-brands fa-whatsapp">&#160</i></a>
+            <a class="telegram" target="blank"><i class="fa-brands fa-telegram">&#160</i></a>
+            <button type="button" id="btn" class="rounded-pill btn-sm btn btn-outline-dark text-nowrap float-right"
+              onclick="printDiv('wrapper1')">Print
+              Recipe &#160<i class="fa-solid fa-print"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Ingredients</h3>
+    <p id="Serves">Serves 4</p>
+    <ul>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">1 cup all-purpose flour</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">2 eggs</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">½ cup milk</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="forthCheckbox">
+        <label class="form-check-label" for="forthCheckbox">½ cup water</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
+        <label class="form-check-label" for="fifthCheckbox">¼ teaspoon salt</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="sixthCheckbox">
+        <label class="form-check-label" for="sixthCheckbox">2 tablespoons butter, melted</label>
+      </li>
+    </ul>
+
+    <div>
+      <h3>Preparation</h3>
+      <h5>Step 1</h5>
+      <p>In a large mixing bowl, whisk together the flour and the eggs. Gradually add in the milk and water, stirring to
+        combine. Add the salt and butter; beat until smooth.</p>
+      <h5>Step 2</h5>
+      <p>Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle,
+        using approximately 1/4 cup for each crepe. Tilt the pan with a circular motion so that the batter coats the
+        surface evenly.</p>
+      <h5>Step 3</h5>
+      <p>Cook the crepe for about 2 minutes, until the bottom is light brown. Loosen with a spatula, turn and cook the
+        other side. Serve hot.</p>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-dark bg-dark sticky-bottom">
+    <div id="bottom-nav">
+      <span class="navbar-text"><button id="nav-print" onclick="printDiv('wrapper1')">Print &#160<i
+            class="fa-solid fa-print"></i></button></span>
+      <span class="navbar-text"><a href="#top" id="back-to-top">Back to Top &#160</a><i
+          class="fa-solid fa-arrow-up"></i></span>
+    </div>
+  </nav>
+
+  <script src="../../general.js"></script>
+  <script src="../../print.js"></script>
+
+</body>
+
+</html>

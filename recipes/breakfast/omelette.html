@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../../styles/recipes.css" rel="stylesheet">
+
+  <title>Omelette</title>
+  <link rel="icon" href="../../icons/favicon.png" sizes="16x16 32x32 48x48 180x180 192x192 512x512" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="Logo" src="../../icons/book-half.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Eden's Recipes
+      </a>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <div>
+    <img src="../../thumbnails/thumbnail5.jpg" class="img-fluid" alt="eggs">
+  </div>
+
+  <div id="wrapper1">
+    <h1>Omelette</h1>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../thumbnails/thumbnail44.jpg" id="card-img" class="bg-image hover-zoom img-fluid rounded-start"
+            alt="milk bread">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              <h6>A well-made omelette is the mark of a good cook. If you haven’t mastered this simple dish, it’s time to get
+                cracking.</h6>
+            <span>Share &#160</span>
+            <a class="facebook" target="blank"><i class="fa-brands fa-facebook">&#160</i></a>
+            <a class="twitter" target="blank"><i class="fa-brands fa-twitter">&#160</i></a>
+            <a class="whatsapp" target="blank"><i class="fa-brands fa-whatsapp">&#160</i></a>
+            <a class="telegram" target="blank"><i class="fa-brands fa-telegram">&#160</i></a>
+            <button type="button" id="btn" class="rounded-pill btn-sm btn btn-outline-dark text-nowrap float-right"
+              onclick="printDiv('wrapper1')">Print
+              Recipe &#160<i class="fa-solid fa-print"></i></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Ingredients</h3>
+    <p id="Serves">Serves 1</p>
+    <ul class="Ingredients">
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">2 large eggs</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">1 tbs water</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">salt and pepper to taste</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="forthCheckbox">
+        <label class="form-check-label" for="forthCheckbox">10g butter</label>
+      </li>
+    </ul>
+
+    <div>
+      <h3>Preparation</h3>
+      <h5>Step 1: Mix</h5>
+      <p>Place 2 eggs, 1 tbs water, salt and pepper in a bowl. Water gives the omelette a fluffy texture. Use a fork to
+        lightly whisk until well combined. Melt 10g butter in a 20cm (base measurement) non-stick frying pan over
+        medium-high heat until sizzling. This ensures the butter and pan are hot enough to cook the omelette quickly
+        underneath while the top remains soft.</p>
+      <h5>Step 2: Cook it Right</h5>
+      <p>Pour egg mixture into the pan and tilt so the mixture covers the base. As the omelette sets, use a heatproof
+        plastic spatula or flat-edged wooden spoon to gently lift and stir, tilting the pan so uncooked egg runs
+        underneath. Cook for 1-2 minutes or until golden and just set underneath. The top should still be slightly runny
+        – it will continue to cook after you fill and fold the omelette.</p>
+      <h5>Step 3: Fill and Fold</h5>
+      <p>Add classic fillings, such as ham, tomato and mushroom, or try something different. Sprinkle over a little
+        crumbled goats cheese and rocket leaves or, for an Asian-style filling, top with crab, fresh coriander leaves
+        and a little oyster sauce. Once you’ve added the fillings, lift one side of the omelette and fold it over to
+        enclose the filling. Carefully slide onto a serving plate. Serve immediately.</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-dark bg-dark sticky-bottom">
+    <div id="bottom-nav">
+      <span class="navbar-text"><button id="nav-print" onclick="printDiv('wrapper1')">Print &#160<i
+            class="fa-solid fa-print"></i></button></span>
+        <span class="navbar-text"><a href="#top" id="back-to-top">Back to Top &#160</a><i class="fa-solid fa-arrow-up"></i></span>
+        </div>
+  </nav>
+
+  <script src="../../general.js"></script>
+  <script src="../../print.js"></script>
+
+</body>
+
+</html>

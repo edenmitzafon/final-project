@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../../styles/recipes.css" rel="stylesheet">
+
+  <title>Buttermilk Pancakes</title>
+  <link rel="icon" href="../../icons/favicon.png" sizes="16x16 32x32 48x48 180x180 192x192 512x512" type="image/png">
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+        <img class="Logo" src="../../icons/book-half.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top">
+        Eden's Recipes
+      </a>
+    </div>
+  </nav>
+
+  <a id="top"></a>
+
+  <div>
+    <img src="../../thumbnails/thumbnail5.jpg" class="img-fluid" alt="eggs">
+  </div>
+
+  <div id="wrapper1">
+    <h1>Buttermilk Pancakes</h1>
+
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../thumbnails/thumbnail22.jpg" id="card-img" class="bg-image hover-zoom img-fluid rounded-start"
+            alt="milk bread">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+            <h6>Pancakes are the hero of the breakfast table, and their very taste can even be described as “deeply
+              breakfasty”:
+              eggy, salty, just this side of sweet. A little indulgent and yet still somehow appropriate first thing in
+              the
+              morning, those fluffy stacks with crisped edges, dripping with maple syrup, are everything you want,
+              exactly when
+              you want them. Here is how to get to them right every time, whether it's a lazy Sunday morning or a
+              hurried
+              weekday.</h6>
+            <span>Share &#160</span>
+            <a class="facebook" target="blank"><i class="fa-brands fa-facebook">&#160</i></a>
+            <a class="twitter" target="blank"><i class="fa-brands fa-twitter">&#160</i></a>
+            <a class="whatsapp" target="blank"><i class="fa-brands fa-whatsapp">&#160</i></a>
+            <a class="telegram" target="blank"><i class="fa-brands fa-telegram">&#160</i></a>
+            <button type="button" id="btn" class="rounded-pill btn-sm btn btn-outline-dark text-nowrap float-right"
+              onclick="printDiv('wrapper1')">Print
+              Recipe &#160<i class="fa-solid fa-print"></i></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Ingredients</h3>
+    <p id="Serves">Serves 4</p>
+    <ul>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+        <label class="form-check-label" for="firstCheckbox">2 cups all-purpose flour</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+        <label class="form-check-label" for="secondCheckbox">3 tablespoons sugar</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+        <label class="form-check-label" for="thirdCheckbox">1½ teaspoons baking powder</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="forthCheckbox">
+        <label class="form-check-label" for="forthCheckbox">1½ teaspoons baking soda</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="fifthCheckbox">
+        <label class="form-check-label" for="fifthCheckbox">1¼ teaspoons kosher salt</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="sixthCheckbox">
+        <label class="form-check-label" for="sixthCheckbox">2½ cups buttermilk</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="seventhCheckbox">
+        <label class="form-check-label" for="seventhCheckbox">2 large eggs</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="eighthCheckbox">
+        <label class="form-check-label" for="eighthCheckbox">3 tablespoons unsalted butter, melted</label>
+      </li>
+      <li>
+        <input class="form-check-input me-1" type="checkbox" value="" id="ninthCheckbox">
+        <label class="form-check-label" for="ninthCheckbox">Vegetable, canola or coconut oil for the pan</label>
+      </li>
+    </ul>
+
+    <div>
+      <h3>Preparation</h3>
+      <h5>Step 1</h5>
+      <p>Heat the oven to 325 degrees. Whisk flour, sugar, baking powder, baking soda and kosher salt together in a
+        bowl. Using the whisk, make a well in the center. Pour the buttermilk into the well and crack eggs into
+        buttermilk. Pour the melted butter into the mixture. Starting in the center, whisk everything together, moving
+        towards the outside of the bowl, until all ingredients are incorporated. Do not overbeat (lumps are fine). The
+        batter can be refrigerated for up to one hour.</p>
+      <h5>Step 2</h5>
+      <p>Heat a large nonstick griddle or skillet, preferably cast-iron, over low heat for about 5 minutes. Add 1
+        tablespoon oil to the skillet. Turn heat up to medium–low and using a measuring cup, ladle ⅓ cup batter into the
+        skillet. If you are using a large skillet or a griddle, repeat once or twice, taking care not to crowd the
+        cooking surface.</p>
+      <h5>Step 3</h5>
+      <p>Flip pancakes after bubbles rise to surface and bottoms brown, about 2 to 4 minutes. Cook until the other sides
+        are lightly browned. Remove pancakes to a wire rack set inside a rimmed baking sheet, and keep in heated oven
+        until all the batter is cooked and you are ready to serve.</p>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-dark bg-dark sticky-bottom">
+    <div id="bottom-nav">
+      <span class="navbar-text"><button id="nav-print" onclick="printDiv('wrapper1')">Print &#160<i
+            class="fa-solid fa-print"></i></button></span>
+      <span class="navbar-text"><a href="#top" id="back-to-top">Back to Top &#160</a><i
+          class="fa-solid fa-arrow-up"></i></span>
+    </div>
+  </nav>
+
+  <script src="../../general.js"></script>
+  <script src="../../print.js"></script>
+
+</body>
+
+</html>
